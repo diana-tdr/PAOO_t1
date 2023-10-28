@@ -57,6 +57,7 @@ MusicAlbum::MusicAlbum(MusicAlbum&& other) {
     other.numTracks = 0;
     other.tracks = nullptr;
 }
+
 MusicAlbum::~MusicAlbum() {
     std::cout << "DESTRUCTOR called on MusicAlbum object with title <" << this->title << ">\n";
 
